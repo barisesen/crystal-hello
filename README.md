@@ -1,31 +1,40 @@
 # hello_world
 
-TODO: Write a description here
+crystal-lang examples.
 
-## Installation
+## Installation crystal-lang
 
+```sh
+curl https://dist.crystal-lang.org/apt/setup.sh | sudo bash
+```
 
-TODO: Write installation instructions here
+```sh
+sudo apt-get install crystal
+```
+### Dependencies on Ubuntu
 
+```sh
+sudo apt-get install \
+  libbsd-dev \
+  libedit-dev \
+  libevent-core-2.0-5 \
+  libevent-dev \
+  libevent-extra-2.0-5 \
+  libevent-openssl-2.0-5 \
+  libevent-pthreads-2.0-5 \
+  libgmp-dev \
+  libgmpxx4ldbl \
+  libssl-dev \
+  libxml2-dev \
+  libyaml-dev \
+  libreadline-dev
+```
 
 ## Usage
-
-
-
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[your-github-name]/hello_world/fork )
-2. Create your feature branch (git checkout -b my-new-feature)
-3. Commit your changes (git commit -am 'Add some feature')
-4. Push to the branch (git push origin my-new-feature)
-5. Create a new Pull Request
+```sh
+crystal src/hello_world.cr
+```
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) Barış Esen - creator, maintainer
+- [barisesen](https://github.com/[your-github-name]) Barış Esen - creator, maintainer
