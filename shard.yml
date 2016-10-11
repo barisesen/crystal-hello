@@ -1,0 +1,12 @@
+name: hello_world
+version: 0.1.0
+
+dependencies:
+  kemal:
+    github: sdogruyol/kemal
+    branch: master
+
+authors:
+  - Barış Esen <barisesennn@gmail.com>
+
+license: MIT
