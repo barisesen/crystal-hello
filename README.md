@@ -1,6 +1,10 @@
 # hello_world
 
+<<<<<<< HEAD
 Crystal-lang examples.
+=======
+crystal-lang examples.
+>>>>>>> e0c70fff67b8dad39887322a4ac6539c1fa4b8e2
 
 ## Installation crystal-lang
 
