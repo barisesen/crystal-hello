@@ -1,6 +1,10 @@
 # hello_world
 
+<<<<<<< HEAD
+Crystal-lang examples.
+=======
 crystal-lang examples.
+>>>>>>> e0c70fff67b8dad39887322a4ac6539c1fa4b8e2
 
 ## Installation crystal-lang
 
@@ -35,6 +39,12 @@ sudo apt-get install \
 crystal src/hello_world.cr
 ```
 
+# Kemal Framework example :
+
+```sh
+crystal src/kemal/hello.cr
+```
+
 ## Contributors
 
-- [barisesen](https://github.com/[your-github-name]) Barış Esen - creator, maintainer
+- [barisesen](https://github.com/barisesen) Barış Esen - creator, maintainer
